@@ -26,13 +26,18 @@
         align-items: center;
         gap: 30px;
     }
-    #title1{
-        color: #3498DB;
-        font-size: 50px;
-        margin: 30px;
-    }
+    #title1 {
+    font-size: 50px;
+    margin: 30px;
+    background: linear-gradient(90deg, #005c43, #005c43); /* Change colors as needed */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
     #title2{
-        color: #005c43;
+        background: linear-gradient(50deg, #3498DB, #1ABC9C); /* Change colors as needed */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 60px;
         font-family:Georgia, 'Times New Roman', Times, serif;
     }
