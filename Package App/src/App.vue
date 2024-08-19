@@ -8,5 +8,9 @@
 
 
 <style>
-  
+*{
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}  
 </style>

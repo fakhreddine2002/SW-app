@@ -1,6 +1,7 @@
 <template>
     <div class="container">
         <h1 id="title1">welcome to the</h1>
+        <img src="../assets/1630604444607.jpeg" alt="SWConsulting">
         <h1 id="title2">Web components libary</h1>
         <div class="BtnContainer">
             <button>Add Component</button>
@@ -23,14 +24,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0px;
+        gap: 30px;
     }
     #title1{
-        color: rgb(0, 0, 0);
+        color: #3498DB;
         font-size: 50px;
+        margin: 30px;
     }
     #title2{
-        color: rgb(0, 13, 255);
+        color: #005c43;
         font-size: 60px;
         font-family:Georgia, 'Times New Roman', Times, serif;
     }
@@ -40,7 +42,7 @@
     }
     .BtnContainer button{
         background-color: rgb(255, 255, 255);
-        border: 3px solid rgb(0, 0, 0);
+        border: 3px solid #333333;
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 20px;
@@ -55,10 +57,12 @@
     .BtnContainer button:hover {
         border: 3px solid rgb(0, 8, 255); 
         background-color: rgba(0, 255, 255, 0.2); 
-        /* color: rgb(0, 8, 255);  */
-        box-shadow: 0 0 15px rgba(0, 8, 255, 0.5); 
+        box-shadow: 0 0 15px #1ABC9C; 
         transform: scale(1.05); 
         transition: all 0.3s ease; 
+    }
+    img{
+        border-radius: 43%;
     }
 
 </style>
