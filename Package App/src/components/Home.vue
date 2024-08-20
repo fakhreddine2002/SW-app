@@ -29,13 +29,13 @@
     #title1 {
     font-size: 50px;
     margin: 30px;
-    background: linear-gradient(90deg, #005c43, #005c43); /* Change colors as needed */
+    background: linear-gradient(90deg, #005c43, #005c43); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
     #title2{
-        background: linear-gradient(50deg, #3498DB, #1ABC9C); /* Change colors as needed */
+        background: linear-gradient(50deg, #3498DB, #1ABC9C); 
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 60px;
