@@ -7,6 +7,7 @@
             <button>Add Component</button>
             <button>Get Component</button>
         </div>
+        <MyButton />
     </div>
 
 </template>
