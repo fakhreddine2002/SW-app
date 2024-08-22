@@ -8,17 +8,21 @@
             <button>Get Component</button>
         </div>
         <MyButton />
+        <ButtonHover />
     </div>
 
 </template>
 
 <script>
     import {MyButton} from'@malekboubaker/my-components'
+    import {ButtonHover} from '@fakhreddine/my-component-library'
+    import '@fakhreddine/my-component-library/dist/bundle.css';
     import '@malekboubaker/my-components/dist/bundle.css';
     export default{
         name:'Home',
         components:{
-            MyButton           
+            MyButton ,
+            ButtonHover          
         }
     }
 </script>
