@@ -33,6 +33,7 @@
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 30px; 
     border-bottom-right-radius: 30px;
+    position: fixed;
   }
   
   .item1 {
