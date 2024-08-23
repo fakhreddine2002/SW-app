@@ -1,7 +1,7 @@
 <template>
     <div id="container1">
-      <div class="item1">Component</div>
-      <div class="item1">Sign In</div>
+      <div class="item1" v-on:click="ClickComp">Component</div>
+      <div class="item1" v-on:click="ClickSign">Sign In</div>
       
     </div>
   </template>
@@ -9,6 +9,14 @@
   <script>
   export default {
     name: 'NavBar1',
+    methods:{
+        ClickComp(){
+            this.$router.push('Components')
+        },
+        ClickSign(){
+            this.$router.push('SignIn')
+        }
+    }
   };
   </script>
   
@@ -20,8 +28,8 @@
     gap: 40px;
     background-color: rgba(0, 0, 0, 0.6);
     height: 60px;
-    width: 100%;
-    margin-bottom: 6    0px; /* Add space below the navbar if needed */
+    width: 700px;
+    margin-bottom: 60px; /* Add space below the navbar if needed */
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 30px; /* Remove border-radius to fit the full width */
     border-bottom-right-radius: 30px;
