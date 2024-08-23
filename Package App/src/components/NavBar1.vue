@@ -21,9 +21,9 @@
     background-color: rgba(0, 0, 0, 0.6);
     height: 60px;
     width: 100%;
-    margin-bottom: 6    0px; /* Add space below the navbar if needed */
+    margin-bottom: 6    0px; 
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-    border-bottom-left-radius: 30px; /* Remove border-radius to fit the full width */
+    border-bottom-left-radius: 30px; 
     border-bottom-right-radius: 30px;
   }
   
