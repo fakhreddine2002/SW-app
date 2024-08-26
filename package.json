@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@malekboubaker/my-components": "^0.1.9",
+    "axios": "^1.7.5",
     "vue-router": "^4.4.3"
   }
 }

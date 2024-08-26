@@ -1,26 +1,42 @@
 <template>
-    <div id="container1">
-      <div class="item1" v-on:click="ClickComp">Component</div>
-      <div class="item1" v-on:click="ClickSign">Sign In</div>
-      
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'NavBar1',
-    methods:{
-        ClickComp(){
-            this.$router.push('Components')
-        },
-        ClickSign(){
-            this.$router.push('SignIn')
-        }
+  <div id="container1">
+    <div class="item1" v-on:click="ClickComp">Component</div>
+    <div v-if="!isSignedIn" class="item1" v-on:click="ClickSign">Sign In</div>
+  </div>
+</template>
+
+<script>
+import axios from 'axios';
+
+export default {
+  name: 'NavBar1',
+  data() {
+    return {
+      isSignedIn: false,
+    };
+  },    
+  async created() {
+    try {
+      const response = await axios.get('http://localhost:8099/');
+      this.isSignedIn = response.data.signedIn;
+      console.log(" hedha chtaati: " + this.isSignedIn);
+    } catch (error) {
+      console.error("Error fetching sign-in status:", error);
     }
-  };
-  </script>
+  },
+  methods: {
+    ClickComp() {
+      this.$router.push('Components');
+    },
+    ClickSign() {
+      this.$router.push('SignIn');
+    }
+  }
+};
+</script>
+
   
-  <style scoped>
+<style scoped>
   #container1 {
     display: flex;
     justify-content: space-around;
@@ -71,4 +87,3 @@
     transform: translateY(-3px);
   }
   </style>
-  
