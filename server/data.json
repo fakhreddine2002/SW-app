@@ -1,0 +1,27 @@
+[
+  {
+    "name": "ButtonHover",
+    "description": "A component from the @fakhreddine/my-component-library library.",
+    "library": "@fakhreddine/my-component-library"
+  },
+  {
+    "name": "ButtonHoverColor",
+    "description": "A component from the @fakhreddine/my-component-library library.",
+    "library": "@fakhreddine/my-component-library"
+  },
+  {
+    "name": "NavBar",
+    "description": "A component from the @fakhreddine/my-component-library library.",
+    "library": "@fakhreddine/my-component-library"
+  },
+  {
+    "name": "MyButton",
+    "description": "A component from the @malekboubaker/my-components library.",
+    "library": "@malekboubaker/my-components"
+  },
+  {
+    "name": "TheVcard",
+    "description": "A component from the @malekboubaker/my-components library.",
+    "library": "@malekboubaker/my-components"
+  }
+]

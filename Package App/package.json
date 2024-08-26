@@ -10,9 +10,10 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@fakhreddine/my-component-library": "^0.1.9",
-    "@malekboubaker/my-components": "^0.1.9",
-    "version": "^0.1.2",
+    "@fakhreddine/my-component-library": "^0.2.0",
+    "@malekboubaker/my-components": "^0.2.3",
+    "cors": "^2.8.5",
+    "version": "^0.0.1",
     "vue": "^3.4.29"
   },
   "devDependencies": {

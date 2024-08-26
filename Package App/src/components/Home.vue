@@ -31,6 +31,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    padding-top: 130px;
   }
   
   #title1 {
