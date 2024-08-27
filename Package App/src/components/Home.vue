@@ -4,12 +4,6 @@
     <a href="https://www.linkedin.com/company/swconsultings/?originalSubdomain=tn"><img class="sw" src="../assets/1630604444607.jpeg" alt="SWConsulting"></a>
     <h1 id="title2">Web components library</h1>
   </div>
-  <div class="logout-container">
-  <a class="logout-button" href="#" @click="logout">
-    <img class="logout-icon" src="../assets/images.png" alt="Logout">
-    <div class="logout-text">LOGOUT</div>
-  </a>
-</div>
 </template>
 
   
@@ -32,10 +26,10 @@ export default {
     }
   },
   mounted() {
-    const user = JSON.parse(localStorage.getItem('user-info'));
-    if (!user) {
-      this.$router.push({ name: 'SignIn' });
-    }
+    // const user = JSON.parse(localStorage.getItem('user-info'));
+    // if (!user) {
+    //   this.$router.push({ name: 'SignIn' });
+    // }
   }
 };
 </script>

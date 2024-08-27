@@ -49,7 +49,7 @@
             email: this.email,
             password: this.password
           });
-          console.log(response.data); // Handle successful response
+          console.log(response.data); 
           localStorage.setItem("user-info", JSON.stringify(response.data));
           this.$router.push({ name: 'Home' });
         } catch (error) {

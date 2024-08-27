@@ -19,7 +19,7 @@
               <div class="information">npm install <span class="library">{{ selectedComponent.library }}</span></div>
             </div>
             <div>
-              <div class="title">How to<span class="effect">use it</span></div>
+              <div class="title">How to <span class="effect">use it</span></div>
               <div class="information"><span class="purple">import</span> { <span class="blue">{{ selectedComponent.name }}</span> } <span class="purple">from</span> <span class="orange">"{{ selectedComponent.library }}"</span> <br> <span class="gris">...</span> <br> <span class="gris"><</span><span class="blue">{{ selectedComponent.name }}</span> <span class="gris">/></span></div>
             </div>
         </div>
