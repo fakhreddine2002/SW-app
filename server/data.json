@@ -10,6 +10,26 @@
     "library": "@fakhreddine/my-component-library"
   },
   {
+    "name": "CardDetail",
+    "description": "A component from the @fakhreddine/my-component-library library.",
+    "library": "@fakhreddine/my-component-library"
+  },
+  {
+    "name": "CarteMystique",
+    "description": "A component from the @fakhreddine/my-component-library library.",
+    "library": "@fakhreddine/my-component-library"
+  },
+  {
+    "name": "DropDownMenu",
+    "description": "A component from the @fakhreddine/my-component-library library.",
+    "library": "@fakhreddine/my-component-library"
+  },
+  {
+    "name": "InputMsg",
+    "description": "A component from the @fakhreddine/my-component-library library.",
+    "library": "@fakhreddine/my-component-library"
+  },
+  {
     "name": "NavBar",
     "description": "A component from the @fakhreddine/my-component-library library.",
     "library": "@fakhreddine/my-component-library"
@@ -20,7 +40,7 @@
     "library": "@malekboubaker/my-components"
   },
   {
-    "name": "TheVcard",
+    "name": "TagInput",
     "description": "A component from the @malekboubaker/my-components library.",
     "library": "@malekboubaker/my-components"
   }

@@ -83,10 +83,12 @@
     margin: auto;
     padding: 40px 20px;
     padding-bottom: 60px;
-    box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.1);
     max-width: 400px;
+    transition: box-shadow 0.3s ease-in-out;
   }
-  
+  .container:hover{
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.819);
+  }
   h2 {
     text-align: center;
     margin-bottom: 20px;
