@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@fakhreddine/my-component-library": "^0.2.4",
-    "@malekboubaker/my-components": "^0.2.5",
+    "@malekboubaker/my-components": "^0.2.6",
     "cors": "^2.8.5",
     "version": "^0.0.1",
     "vue": "^3.4.29"

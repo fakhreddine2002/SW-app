@@ -36,6 +36,7 @@
   import { CarteMystique } from '@fakhreddine/my-component-library';
   import { DropDownMenu } from '@fakhreddine/my-component-library';
   import { MyButton } from '@malekboubaker/my-components';
+  import { TagInput } from '@malekboubaker/my-components';
   import '@fakhreddine/my-component-library/dist/bundle.css';
   import '@malekboubaker/my-components/dist/bundle.css';
   
@@ -54,6 +55,7 @@
           'InputMsg' : InputMsg,
           'DropDownMenu' : DropDownMenu,
           'CarteMystique' : CarteMystique,
+          'TagInput' : TagInput
         }
       };
     },
